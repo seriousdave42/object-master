@@ -17,7 +17,10 @@ public class HumanTest {
 		System.out.println(bob.health);
 		System.out.println(fred.health);
 		System.out.println(james.health);
-		
+		Samurai faye = new Samurai();
+		Samurai spike = new Samurai();
+		faye.howMany();
+		james.howMany();
 	}
 
 }
